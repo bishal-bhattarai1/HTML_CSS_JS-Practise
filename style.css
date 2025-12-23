@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: bis;
+    src: url(./font/Cera-Round-Pro-Regular.woff2);
+}
+
+.viewport1 {
+    background-color: rgb(216, 206, 206);
+}
+
+p{
+    color: red;
+    font-size: 20px;
+    font-family: bis;
+    text-align: center;
+    padding: 30px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(184, 212, 212);
+    /* background: linear-gradient(red,yellow,green); */
+    background: conic-gradient(red,yellow,green);
+    /* background: radial-gradient(red,yellow) */
+    
+}
+
+.box-2{
+    background-color: rgb(255, 150, 156);
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(green,white ,black)
+}
