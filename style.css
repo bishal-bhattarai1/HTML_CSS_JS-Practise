@@ -21,7 +21,9 @@ p{
 
 .box{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 30px; */
     background-color: rgb(184, 212, 212);
     /* background: linear-gradient(red,yellow,green); */
     background: conic-gradient(red,yellow,green);
@@ -34,4 +36,5 @@ p{
     height: 400px;
     width: 400px;
     background: radial-gradient(green,white ,black)
+    
 }
