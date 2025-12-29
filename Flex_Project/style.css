@@ -20,6 +20,11 @@ html,body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
+    padding: 30px;
+    gap: 180px;
+    /* na aateko kura lai muni jharcha */
+    flex-wrap: wrap; 
+    
      /* flex-wrap: wrap; */
      /* border: 20px solid red; */
 }
@@ -32,6 +37,12 @@ html,body {
 
 }
 
+.second-flex {
+    display: flex;
+    margin-top: -110px;
+    justify-content: space-evenly;
+    gap: 250px;
+}
 
 .contain-part{
     display: flex;
@@ -56,6 +67,7 @@ html,body {
     border-radius: 30px;
     object-fit: cover;
     object-position: center;
+    
 }
 
 .section2{
@@ -63,3 +75,5 @@ html,body {
     display: flex;
     justify-content: space-evenly;
 }
+
+
